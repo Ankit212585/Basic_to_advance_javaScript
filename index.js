@@ -163,7 +163,7 @@ console.log(sum(num));
 // }
 
 // second method
-var sting = prompt("enter your sting");
+// var sting = prompt("enter your sting");
 const vawels = ["a", "e", "i", "o", "u"];
 const vowelCount = (str) => {
   var count = 0;
@@ -174,5 +174,28 @@ const vowelCount = (str) => {
   }
   return count;
 };
-console.log(vowelCount(sting));
+// console.log(vowelCount(sting));
 // Q-11
+
+// questions
+let students = {
+  name: "ankit",
+  age: 14,
+  grades: {
+    hindi: 85,
+    maths: 78,
+  },
+};
+
+// add computer grades , at the grade section
+
+const addGrade = (students, subject, marks) => {
+  if (!students.grades) {
+    students.grades = {};
+  }
+  return (students.grades[subject] = marks);
+};
+
+addGrade(students, "computer", 98);
+console.log(students);
+ 

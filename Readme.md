@@ -191,14 +191,18 @@ can be used while using comparison operators.
 
 <!-- Now we starts the 1st chapter operators in the javaScript -->
 
-Q-1 what is short-circuit evaluation in javaScript ? Ans:-
-Short-circuit evaluation tiops the execution as soon as the result can
-be determinded without evaluating the remaining sub-expressions.
+Q-1 what is short-circuit evaluation in javaScript ?
+
+Ans:- Short-circuit evaluation tiops the execution as soon as the
+result can be determinded without evaluating the remaining
+sub-expressions.
 
 <!-- ----------------------------------------------------- -->
 
-Q-2 what is operator precedence ? Ans:- As per operator precedence
-opeators with higher precedence are evaluated first.
+Q-2 what is operator precedence ?
+
+Ans:- As per operator precedence opeators with higher precedence are
+evaluated first.
 
 <!-- ----------------------------------------------------- -->
 
