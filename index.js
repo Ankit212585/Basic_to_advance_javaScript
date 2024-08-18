@@ -314,4 +314,95 @@ console.log(myfunk(3, 3, 3));
 console.log(myfunk(4, 3, 4));
 console.log(myfunk(2, 7, 8));
 
-// 
+// write a function to sort an array of numbers in an ascending order
+// Todo
+//? The function should take an arry of numbers as input
+//? It should return a new array with the number sorted in asscending order
+//? The original array should remain unchanged.
+//? Your are not allowed to use the built-in-sort() method.
+
+const shortfunk = (count) => {
+  return count.sort((a, b) => a - b);
+};
+
+console.log(shortfunk([5, 3, 8, 2, 1, 0, 7]));
+
+// write a function fidemax that takes an array of numbers as input and returns the maximum number in the array.
+
+const findmax = (maxNum) => {
+  return Math.max(...maxNum);
+};
+
+console.log(
+  findmax([52, 78, 68, 88, 15, 24, 36, 12, 12, 75, 68, 48])
+);
+
+// write a function factorial that takes a non-negative integer num as input and returns its factorial. The factorial of a non-negative integer n denoted as n! is the product of all positive integers less than or equal to n. The factorial of 0 is defined as 1.
+
+// Here are some examples of factorial calculations
+// factorial(0) => 1
+// factorial(1) => 1
+// factorial(2) => 2
+// factorial(3) => 6
+// factorial(4) => 24
+// factorial(5) => 120
+// your function should work for any non-negative integer input
+
+const factorial = (num) => {
+  if (num === 0) return 1;
+  let result = 1;
+  for (let i = num; i > 1; i--) {
+    result = result * i;
+  }
+  return result;
+};
+
+console.log(factorial(5));
+
+// write a function called calculaterAverage that takes an arry of number as input and return the average of those numbers.
+// Accept an arry of numbers as input.
+// calculate the sum of all the numbers in the array
+// Divide the sum by the total number of elements in the array to find the average
+// Return the calculated average.
+
+const averageNumber = (num1) => {
+  const mynum = num1.reduce((pre, curr) => pre + curr, 0);
+  return mynum / num1.length;
+};
+
+console.log(averageNumber([1, 8, 5, 6, 8, 9]));
+
+// write a fucntion arrayEqual that takes two arrays arr1 and arr2 as input and returns true if the arrays are equal (i,e contain the same elements in the same order and false otherwise)
+// The functions should return the false if the array have different lengths.
+
+const arrayEqual = (arr1, arr2) => {
+  if (arr1.join("") === arr2.join("")) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+console.log(arrayEqual([1, 2, 3], [1, 2, 3]));
+console.log(arrayEqual([1, 5, 3], [1, 2, 6]));
+console.log(arrayEqual([], []));
+
+// write a function that takes a number as input and returns the sum of its digits
+//? Todo
+//? The input number always be positive integer
+// The input number can have multiple digits
+// The output should be the sum of all the digits in the input number.
+
+// Homework
+// This functions calculates the sum of all the digits without converting the number of string
+
+const sumofDigits = (digits) => {
+  const mynum = digits.toString().split("").map(Number);
+  return mynum.reduce((pre, curr) => pre + curr, 0);
+};
+
+console.log(sumofDigits(13485));
+
+// split ek array method hai, or array pr he work krta hai, ya string pr work krta hai remeber this thing
+
+// write a function that takes an array of integers as input and removes any dublicates elements returning 
