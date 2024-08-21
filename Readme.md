@@ -154,7 +154,7 @@ Q-9 what is an asynchronous programing in javaScript ? what is the use
 !
 
 Ans:- Anynchronous programming allows multiple tasks or operations to
-be intiated and executed concurrently, Anynchronous programming do not
+be intiated and executed currently, Anynchronous programming do not
 block the execution of the code
 
 <!-- ----------------------------------------------------- -->
@@ -175,17 +175,17 @@ particular variable
 Q-11 what is the use of typeof operators ?
 
 Ans:- TypeOf operator is used to determine the type of each variable.
-Real applications use -> TypeOf operators can be used to validate the
+Real applications use --> TypeOf operators can be used to validate the
 data received from external sources(api)
 
 <!-- ----------------------------------------------------- -->
 
 Q-12 What is type coercion in javaScript ?
 
-Ans:- Type coercion is the automatic conversionof values from one data
-type to another during certain opeations comparisons. 1.Type coercion
-can be used during string and number concatenation. 2. Type coercion
-can be used while using comparison operators.
+Ans:- Type coercion is the automatic conversion of values from one
+data type to another during certain opeations comparisons. 1.Type
+coercion can be used during string and number concatenation. 2. Type
+coercion can be used while using comparison operators.
 
 <!-- Basic 2nd part is compelete -->
 
@@ -291,7 +291,7 @@ Q-6 what is the difference map() and forEach() array methods of an
 array?
 
 Ans:- Map()- map() method is used when you want to modify each element
-of an array and create a anew array with the modified values.
+of an array and create a new array with the modified values.
 
 ForEach() method is used when you want to perform some operation on
 each element of an array without creating a new array.
@@ -303,17 +303,19 @@ reversed by using sort() and reverse() methods of an array.
 
 <!-- ----------------------------------------------------- -->
 
-Q-8 What is Array Destructuring in javaScript ? Ans:- Array
-destructuring allows you to extract elements from an array and assign
-them to individual variables in a single statement. Array
+Q-8 What is Array Destructuring in javaScript ?
+
+Ans:- Array destructuring allows you to extract elements from an array
+and assign them to individual variables in a single statement. Array
 destructuring is introduced in ECMAscript 6 (ES6)
 
 <!-- ----------------------------------------------------- -->
 
-Q-9 what are array-like objects in javaScript ? Ans:- Array-like
-objects are objects that have indexed elements and a length property,
-similar to arrays, but they may not have all the methods of arrays
-like push(),pop() & others
+Q-9 what are array-like objects in javaScript ?
+
+Ans:- Array-like objects are objects that have indexed elements and a
+length property, similar to arrays, but they may not have all the
+methods of arrays like push(),pop() & others
 
 <!-- ----------------------------------------------------- -->
 
@@ -321,10 +323,12 @@ like push(),pop() & others
 
 <!-- Now we starts the 3rd chapter of loops in the javaScript -->
 
-Q-1 what is the difference between while and for loops ? Ans:-
-Forloop- For loop allows to iterate a block of code a specific number
-of times. and for loop is better for condition with intialization and
-with incremenet because all can be set in just one line code.
+Q-1 what is the difference between while and for loops ?
+
+Ans:- Forloop- For loop allows to iterate a block of code a specific
+number of times. and for loop is better for condition with
+intialization and with incremenet because all can be set in just one
+line code.
 
 WhileLoop:- while loop execute a block of code while a cartain
 conditions is ture. while loop is better when there is only condition,
@@ -332,9 +336,11 @@ no initialization no increments
 
 <!-- ----------------------------------------------------- -->
 
-Q-2 what is do-while loops ? Ans:- Do-whileLoop:- The do-while loop is
-similar to the while loop, except that the block of code is executed
-at least onece, even if the condition is false.
+Q-2 what is do-while loops ?
+
+Ans:- Do-whileLoop:- The do-while loop is similar to the while loop,
+except that the block of code is executed at least onece, even if the
+condition is false.
 
 <!-- ----------------------------------------------------- -->
 
@@ -356,15 +362,18 @@ values associated by using keys as the index.
 
 <!-- ----------------------------------------------------- -->
 
-Q-5 What is forEach method in javaScript ? Ans:- ForEach() is a method
-available on arrays or object that allows you to itrate over each
-element of the array and perform some action on each element.
+Q-5 What is forEach method in javaScript ?
+
+Ans:- ForEach() is a method available on arrays or object that allows
+you to itrate over each element of the array and perform some action
+on each element.
 
 <!-- Now we Ends the 3rd chapter of loops in the javaScript -->
 
 <!-- Now we starts the 4th chapter of functions in the javaScript -->
 
 Q-1 What is the difference between named and anonymous functions ?
+
 Ans:- Named functions have a name identifier. Use named functions for
 big and complex logics. use when you wnat to reuse one function at
 multiple places
@@ -376,40 +385,48 @@ single place.
 
 <!-- ----------------------------------------------------- -->
 
-Q-2 What is function expression in javaScript ? Ans:- A function
-expression is a way to define a function by assigningit to a variable.
+Q-2 What is function expression in javaScript ?
+
+Ans:- A function expression is a way to define a function by
+assigningit to a variable.
 
 <!-- ----------------------------------------------------- -->
 
-Q-3 What are callback functions ? what is it use ? Ans:- A callback
-function is a function that is passed as an argument to another
-function.
+Q-3 What are callback functions ? what is it use ?
+
+Ans:- A callback function is a function that is passed as an argument
+to another function.
 
 <!-- ----------------------------------------------------- -->
 
-Q-4 what is Higher-oder functions in javaScript ? Ans:- A higher order
-function. Take one or more functions are arguments(callback function)
-OR Return a function as a result
+Q-4 what is Higher-oder functions in javaScript ?
+
+Ans:- A higher order function. Take one or more functions are
+arguments(callback function) OR Return a function as a result
 
 <!-- ----------------------------------------------------- -->
 
-Q-5 what is the difference between arguments and parameters ? Ans:-
-Parameters- Parameters are the placeholders defined in the function
-declaration. Arguments- Arguments are the actual values passed to a
-function when it is invoked or called
+Q-5 what is the difference between arguments and parameters ?
+
+Ans:- Parameters- Parameters are the placeholders defined in the
+function declaration. Arguments- Arguments are the actual values
+passed to a function when it is invoked or called
 
 <!-- ----------------------------------------------------- -->
 
-Q-6 How do you use default parameters in a function ? Ans:- In
-javaScript default parameters allow you to specify default values for
-function parameters.
+Q-6 How do you use default parameters in a function ?
+
+Ans:- In javaScript default parameters allow you to specify default
+values for function parameters.
 
 <!-- ----------------------------------------------------- -->
 
-Q-7 what is the use of event handling in javaScript ? Ans:- Event
-handling is the process of responding to user actions in a web page.
-The addEventListener method of javaScript allows to attach an event
-name and with the functiion you want to perform on that event.
+Q-7 what is the use of event handling in javaScript ?
+
+Ans:- Event handling is the process of responding to user actions in a
+web page. The addEventListener method of javaScript allows to attach
+an event name and with the functiion you want to perform on that
+event.
 
 <!-- ----------------------------------------------------- -->
 
@@ -420,10 +437,11 @@ functions in that language are treated like other variables.
 
 <!-- ----------------------------------------------------- -->
 
-Q-9 What are Pure and Impure functions in javaScript ? Ans:- Pure- A
-pure function is a function that always produces the same output for
-the same input. Pure functions cannot modify the state. Pure functions
-cannot have side effects.
+Q-9 What are Pure and Impure functions in javaScript ?
+
+Ans:- Pure- A pure function is a function that always produces the
+same output for the same input. Pure functions cannot modify the
+state. Pure functions cannot have side effects.
 
 Impure- An impure function can produce different outputs for the same
 input. Impure functions can modify the state. impure functions can
@@ -431,9 +449,11 @@ have side effects.
 
 <!-- ----------------------------------------------------- -->
 
-Q-10 what is function currying in javaScipt ? Ans:- Currying in
-javaScript transforms a function with multiple argumesnts into a
-nested series of functions each taking a single argument.
+Q-10 what is function currying in javaScipt ?
+
+Ans:- Currying in javaScript transforms a function with multiple
+argumesnts into a nested series of functions each taking a single
+argument.
 
 Advantages:- Reusability, modularity and specialization Big complex
 functions with multiple gruments can be broken down into small
@@ -450,27 +470,32 @@ Ans:- A string is a data Type used to store and manipulate data.
 <!-- ----------------------------------------------------- -->
 
 Q-2 what are template literals and string interpolation in strings ?
+
 Ans:- A template literal also known as a template string is a feature
 introduced in ECMAscript 2015 (ES6) fir string interpolation and
 multiline strings in javaScript.
 
 <!-- ----------------------------------------------------- -->
 
-Q-3 What is string immutability ? Ans:- Strings in JavaScript
-considered immutable because you cannot modify the contents of an
-existing string directly.
+Q-3 What is string immutability ?
+
+Ans:- Strings in JavaScript considered immutable because you cannot
+modify the contents of an existing string directly.
 
 <!-- ----------------------------------------------------- -->
 
-Q-4 What is the purpose of the throw statement in JavaScript ? Ans:-
-The throw statement stops the execution of the current function and
-passes the error to the catch block of calling function.
+Q-4 What is the purpose of the throw statement in JavaScript ?
+
+Ans:- The throw statement stops the execution of the current function
+and passes the error to the catch block of calling function.
 
 <!-- ----------------------------------------------------- -->
 
-Q-5 what is error propagation in javaScript ? Ans:- Error propagation
-refers to the process of passing or propagating an error from one part
-of the code to another by using the throw statement with try catch
+Q-5 what is error propagation in javaScript ?
+
+Ans:- Error propagation refers to the process of passing or
+propagating an error from one part of the code to another by using the
+throw statement with try catch
 
 <!-- ----------------------------------------------------- -->
 
@@ -486,28 +511,33 @@ when the property name is stored in a variable.
 <!-- ----------------------------------------------------- -->
 
 Q-7 What is the difference between deep copy and shallow copy in
-javaScript ? Ans:- Shallow copy in nested objects case will modify the
-parent object property value if cloned object property value is
-changed but deep copy will not modify the parent object property value
+javaScript ?
+
+Ans:- Shallow copy in nested objects case will modify the parent
+object property value if cloned object property value is changed but
+deep copy will not modify the parent object property value
 
 <!-- ----------------------------------------------------- -->
 
-Q-8 What is Set Object in JavaScript ? Ans:- The set object is a
-collection of unique values meaning that duplicate values are not
-allowed. Set provides methods for adding deleting and checking the
-existence of value in the set. Set can be used to remove duplicate
-values from arrays
+Q-8 What is Set Object in JavaScript ?
+
+Ans:- The set object is a collection of unique values meaning that
+duplicate values are not allowed. Set provides methods for adding
+deleting and checking the existence of value in the set. Set can be
+used to remove duplicate values from arrays
 
 <!-- ----------------------------------------------------- -->
 
-Q-9 What is Map object in JavaScript ? Ans:- The Map object is
-collection of key value paris where each key can be of any type and
-each value can also be of any type. A map maintains the order of key
-value pairs as they were inserted.
+Q-9 What is Map object in JavaScript ?
+
+Ans:- The Map object is collection of key value paris where each key
+can be of any type and each value can also be of any type. A map
+maintains the order of key value pairs as they were inserted.
 
 <!-- ----------------------------------------------------- -->
 
 Q-10 What is the difference between Map and object in javaScript ?
+
 Ans:- Map- key in a map can be of any data type including strings
 numbers objects functions etc.
 
@@ -527,41 +557,50 @@ properties.
 
 <!-- ----------------------------------------------------- -->
 
-Q-11 what is Event object in javaScript ? Ans:- Whenever any event is
-triggered the browser automatically creates an event object and passes
-its as an argument to the event handler function. The event object
-contains various properties and methods that provide information about
-the event such as the type of event the element that triggered the
-event etc.
+Q-11 what is Event object in javaScript ?
+
+Ans:- Whenever any event is triggered the browser automatically
+creates an event object and passes its as an argument to the event
+handler function. The event object contains various properties and
+methods that provide information about the event such as the type of
+event the element that triggered the event etc.
 
 <!-- ----------------------------------------------------- -->
 
-Q-12 What is Event Delegation in JavaScript ? Ans:- Event deligation
-in javaScript is a technique where you attach a single event handler
-to a parent element ot handle events on its child elements.
+Q-12 What is Event Delegation in JavaScript ?
+
+Ans:- Event deligation in javaScript is a technique where you attach a
+single event handler to a parent element or handle events on its child
+elements.
 
 <!-- ----------------------------------------------------- -->
 
 Q-13 How can you stop event propagation or event bubbling in
-javaScript ? Ans:- Evnet bubbling can be stopped by calling
-stopPropagation() method on event.
+javaScript ?
+
+Ans:- Evnet bubbling can be stopped by calling stopPropagation()
+method on event.
 
 <!-- ----------------------------------------------------- -->
 
 Q-14 What is the purpose of the event.preventDefault() method in
-javaScript ? Ans:- The event.preventDefault() method is used to
-prevent the default behaviour of an event and the link click will be
-prevented
+javaScript ?
+
+Ans:- The event.preventDefault() method is used to prevent the default
+behaviour of an event and the link click will be prevented
 
 <!-- ----------------------------------------------------- -->
 
 Q-15 What is the use of this keyword in the context of event handling
-in javaScript ? Ans:- this keyword refers to the element that the
-event handler is attached to.
+in javaScript ?
+
+Ans:- this keyword refers to the element that the event handler is
+attached to.
 
 <!-- ----------------------------------------------------- -->
 
 Q-16 How to remove an event handler from an element in javaScript ?
+
 Ans:- removeEventListner() method is used to remove revent handler
 from element.
 
