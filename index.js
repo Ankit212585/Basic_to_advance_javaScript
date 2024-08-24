@@ -215,7 +215,7 @@ const addGrade = (students, subject, marks) => {
 addGrade(students, "computer", 98);
 console.log(students);
 
-// qustion:12 write a function findLongesword that takes a string as input and return the longest towd in the string. If there are mulitple longest words return the first one encountered.
+// qustion:12 write a function findLongesword that takes a string as input and return the longest towaryd in the string. If there are mulitple longest words return the first one encountered.
 
 //* Constraints:
 //? The input string may contain alphabetic charaters digits spaces and punctuation.
@@ -240,7 +240,7 @@ console.log(
   longestWord("A quick brown fox jumpes over the little lazy dog")
 );
 
-// question-13 your are required to implent a function generatHash that generates a hash tag from a fiven input string the hash tag should be constructed as follows
+// question-13 your are required to impliment a function generatHash that generates a hash tag from a given input string the hash tag should be constructed as follows
 
 //? The input string should be converted to a hash tag format where each word is capitalized and concatenated together without spaces.
 
@@ -262,7 +262,6 @@ const generateHash = (str) => {
     .join("");
   return `#${myArr}`;
 };
-
 console.log(
   generateHash("A quick brown fox jumps over the little lozy dog")
 ); //output #AQuickBrownFoxJumpsOverTheLittleLazyDog
@@ -327,7 +326,7 @@ const shortfunk = (count) => {
 
 console.log(shortfunk([5, 3, 8, 2, 1, 0, 7]));
 
-// write a function fidemax that takes an array of numbers as input and returns the maximum number in the array.
+// write a function find max that takes an array of numbers as input and returns the maximum number in the array.
 
 const findmax = (maxNum) => {
   return Math.max(...maxNum);
@@ -359,7 +358,7 @@ const factorial = (num) => {
 
 console.log(factorial(5));
 
-// write a function called calculaterAverage that takes an arry of number as input and return the average of those numbers.
+// write a function called calculateAverage that takes an arry of number as input and return the average of those numbers.
 // Accept an arry of numbers as input.
 // calculate the sum of all the numbers in the array
 // Divide the sum by the total number of elements in the array to find the average
@@ -370,7 +369,7 @@ const averageNumber = (num1) => {
   return mynum / num1.length;
 };
 
-console.log(averageNumber([1, 8, 5, 6, 8, 9]));
+console.log(averageNumber([1, 8, 5, 6, 0, 8, 9]));
 
 // write a fucntion arrayEqual that takes two arrays arr1 and arr2 as input and returns true if the arrays are equal (i,e contain the same elements in the same order and false otherwise)
 // The functions should return the false if the array have different lengths.
@@ -405,4 +404,4 @@ console.log(sumofDigits(13485));
 
 // split ek array method hai, or array pr he work krta hai, ya string pr work krta hai remeber this thing
 
-// write a function that takes an array of integers as input and removes any dublicates elements returning 
+// write a function that takes an array of integers as input and removes any dublicates elements returning
