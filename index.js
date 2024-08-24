@@ -8,7 +8,7 @@ console.log(duplicate);
 
 // Explanations:-  filter method 3 perameters leta hai element, index no. and full array, ab arr mai se ele no. nikal liya or ager wo ele !== index k to dublicate number hume mil jayga
 
-// -----------------------------------------------------------------------------------------------------------
+//  ----------------------------------------------------------------------------------
 
 // Q-2 How to find the max and min value in a given Array in javaScript...?
 
@@ -23,6 +23,7 @@ console.log(maxvalue(arr));
 
 // explanations:-  reduce function ek call back function leta hai usme wo 2 perameters leta hai, previous value and current value, isme agar previous value current value se badi hai to previous value aaygi vrna current value show hogi, is tra hum apna max no. nikaal shkte hai!
 
+//  ----------------------------------------------------------------------------------
 //find min value
 const minvalue = (arr) => {
   return arr.reduce(function (pre, curr) {
@@ -33,6 +34,7 @@ console.log(minvalue(arr));
 
 // explanations:-  reduce function ek call back function leta hai usme wo 2 perameters leta hai, previous value and current value, isme agar previous value current value se choti hai to previous value aaygi vrna current value show hogi, is tra hum apna max no. nikaal shkte hai!
 
+//  ----------------------------------------------------------------------------------
 // Q-3 find odd number and even Number in a Array...?
 // OddNumber:-
 // EvenNumber:-
@@ -50,6 +52,7 @@ console.log(odd);
 
 // explanation: Remeber humne kha tha ki filter method 3 perameter leta hai, element, index, and full array isme odd or even number nikaalne k lie, filter method n element ka use kia hai ager hmara koi bhi element 2 se divide krne prr remider show nhi krta ya zero aata hai to wo hmara even no. hai vran wo odd number hai
 
+//  ----------------------------------------------------------------------------------
 // Q-4 what is the diffrence between == and === ...?
 
 var x = 7;
@@ -59,6 +62,7 @@ console.log(x === y);
 
 // == hamari value ko check krta hai prr === hamri value or data type dono ko check krta hai !
 
+//  ----------------------------------------------------------------------------------
 // Q-5 How to find the 2nd largest value and remove first largest value in array...?
 const largestvalue = [51, 84, 75, 82, 12, 46, 15, 65, 52, 74, 63];
 const largestV = (arr) => {
@@ -72,6 +76,7 @@ console.log(largestV(largestvalue));
 
 // kisi bhi array me largest value nikalne k lie hme math.max ka formula use krna chaiye, or uss first value ko remove krne k lie splice method ka use krna chaiye
 
+//  ----------------------------------------------------------------------------------
 // Q-6 what is difference between filter() and find() method in javaScript...?
 const Employee = [
   {
@@ -105,6 +110,7 @@ console.log(findmethod);
 
 // Explanation: find method bhi same he work krta hai, find method specially pure function mai se uss ek value ko find krega jo apne use find krne k lie kha hai !
 
+//  ----------------------------------------------------------------------------------
 // Q-6 How to find the missing number in a given integer array of 1 to 10...?
 
 const my_number = [1, 2, 4, 5, 6, 8, 9, 10];
@@ -121,6 +127,7 @@ const missingV = (arr) => {
 };
 console.log(missingV(my_number));
 
+//  ----------------------------------------------------------------------------------
 // Q-7 How to find the sum of all elements in a given array[] in javaScript...?
 
 const num = [4, 5, 2, 7, 41, 52, 3, 54, , 52, 2, 85];
@@ -131,6 +138,7 @@ const sum = (item) => {
 };
 console.log(sum(num));
 
+//  ----------------------------------------------------------------------------------
 // Q-8 How to find the Factorial(n!) of a given number in javaScript...?
 // const inputNum = prompt("enter your value");
 
@@ -191,6 +199,8 @@ const vowelCount = (str) => {
   return count;
 };
 // console.log(vowelCount(sting));
+
+//  ----------------------------------------------------------------------------------
 // Q-11
 
 // questions
@@ -215,6 +225,7 @@ const addGrade = (students, subject, marks) => {
 addGrade(students, "computer", 98);
 console.log(students);
 
+//  ----------------------------------------------------------------------------------
 // qustion:12 write a function findLongesword that takes a string as input and return the longest towaryd in the string. If there are mulitple longest words return the first one encountered.
 
 //* Constraints:
@@ -240,6 +251,7 @@ console.log(
   longestWord("A quick brown fox jumpes over the little lazy dog")
 );
 
+//  ----------------------------------------------------------------------------------
 // question-13 your are required to impliment a function generatHash that generates a hash tag from a given input string the hash tag should be constructed as follows
 
 //? The input string should be converted to a hash tag format where each word is capitalized and concatenated together without spaces.
@@ -248,6 +260,7 @@ console.log(
 
 //?  otherwise the function should return the generated hash tag prefixed with#
 
+//  ----------------------------------------------------------------------------------
 // 13. Write a function genreateHash to accomplish this task.
 
 const generateHash = (str) => {
@@ -288,6 +301,7 @@ const countChar = (word, char) => {
 
 console.log(countChar("anuradha", "a"));
 
+//  ----------------------------------------------------------------------------------
 // write a function called check triangle type that takes three parameters representing the lengths of the side of a triangle. The function should return a string indicating the type of triangle "equilaterral", "isoscelers", "scalene"
 
 // Todo The function should follow all the rules
@@ -313,6 +327,7 @@ console.log(myfunk(3, 3, 3));
 console.log(myfunk(4, 3, 4));
 console.log(myfunk(2, 7, 8));
 
+//  ----------------------------------------------------------------------------------
 // write a function to sort an array of numbers in an ascending order
 // Todo
 //? The function should take an arry of numbers as input
@@ -326,6 +341,7 @@ const shortfunk = (count) => {
 
 console.log(shortfunk([5, 3, 8, 2, 1, 0, 7]));
 
+//  ----------------------------------------------------------------------------------
 // write a function find max that takes an array of numbers as input and returns the maximum number in the array.
 
 const findmax = (maxNum) => {
@@ -358,6 +374,7 @@ const factorial = (num) => {
 
 console.log(factorial(5));
 
+//  ----------------------------------------------------------------------------------
 // write a function called calculateAverage that takes an arry of number as input and return the average of those numbers.
 // Accept an arry of numbers as input.
 // calculate the sum of all the numbers in the array
@@ -386,6 +403,7 @@ console.log(arrayEqual([1, 2, 3], [1, 2, 3]));
 console.log(arrayEqual([1, 5, 3], [1, 2, 6]));
 console.log(arrayEqual([], []));
 
+//  ----------------------------------------------------------------------------------
 // write a function that takes a number as input and returns the sum of its digits
 //? Todo
 //? The input number always be positive integer
@@ -405,3 +423,159 @@ console.log(sumofDigits(13485));
 // split ek array method hai, or array pr he work krta hai, ya string pr work krta hai remeber this thing
 
 // write a function that takes an array of integers as input and removes any dublicates elements returning
+
+const removeDublicate = (dublicate) => {
+  const newArr = [...new Set(dublicate)];
+  return newArr;
+};
+
+console.log(removeDublicate([1, 8, 2, 2, 4, 6, 8, 10, 2, 5]));
+
+// The new Set() method in javaScript creates a new set object . A set object is a collection of unique value. It can store any type of value, whether primitive values or object reference
+
+//  ----------------------------------------------------------------------------------
+
+// Write a function that takes a string as input and returns the cout of vowels in that string. Consider a,e,i,o,u as vowel (both lowercase and uppercase)
+
+// Constraints:
+// The input string may contain letters in both uppercase and lowercase.
+// The output should be a non-negative integer representing the count of vowels in the input string.
+
+const findVowel = (str) => {
+  const vowel = ["a", "e", "i", "o", "u"];
+
+  const myArr = str.split("").reduce((pre, post) => {
+    if (vowel.includes(post.toLowerCase())) {
+      pre.push(post);
+    }
+    return pre;
+  }, []);
+  return myArr;
+};
+
+console.log(findVowel("Radha Maa"));
+
+//  ----------------------------------------------------------------------------------
+// Write a function called isPowerTwo that takes an integer num as input and returns true if num is power of two and false otherwise.
+
+// Notes:
+//? The input num will be positive integer.
+//? Zero and negative integers are considered of powers of two
+//? The function should return true if the given number is power of 2 and false otherwise.
+
+const PowerOfTwo = (num) => {
+  let op = false;
+  for (let i = 1; i < num; i++) {
+    if (2 ** i === num) {
+      op = true;
+    }
+  }
+  return op;
+};
+
+// use Bitwise operator method
+const PowerOfTwo1 = (num) => {
+  if (num < 0) {
+    return false;
+  }
+  return (num & (num - 1)) === 0; //behaviour odd even number
+};
+
+console.log(PowerOfTwo(64)); // true
+console.log(PowerOfTwo1(7)); // false
+
+//  ------------------------------------------------------------------------------------------
+
+// write a function to calculate the sum of squares of all elements in an array. For example, fiven the array [1,2,3] the function should return 14 because 1*1 + 2*2 + 3*3  = 1+4+9 = 14
+
+const sumofSquare = (num) => {
+  const result = num.reduce(
+    (pre, post) => (pre = pre + post * post),
+    0
+  );
+  return result;
+};
+console.log(sumofSquare([5, 5, 8]));
+
+//  ----------------------------------------------------------------------------------
+
+// write a function findMin that takes an array of numbers as input and return the minimum value found in the array
+
+// Constraints
+//? The input array may contain both positive and negative integers.
+//? The input array may be empty.
+//? The input array may contain duplicate values.
+
+const findMinNumber = (minNum) => {
+  return Math.min(...minNum);
+};
+
+console.log(findMinNumber([80, 57, 21, 95, 52, 35, 78, 51, 78]));
+
+//  ----------------------------------------------------------------------------------
+
+// write a function to convert a string to camelCase and snake_case
+
+const toCamelCase = (str) => {
+  str = str.trim().split(" "); // Split the string into an array
+
+  str = str.map((currEle, index) => {
+    if (index === 0) {
+      return currEle.toLowerCase(); // First word remains lowercase
+    } else {
+      return (
+        currEle.charAt(0).toUpperCase() + // Capitalize the first letter of subsequent words
+        currEle.slice(1).toLowerCase()
+      );
+    }
+  });
+
+  return str.join(""); // Join the array back into a string
+};
+
+console.log(toCamelCase("hello world anKit"));
+
+//  ----------------------------------------------------------------------------------
+
+// write a function to check if a character is uppercase or lowercase.
+// Constrains:
+//? The input char will be a single character.
+//? The character can be any printable ASCII character.
+//? you can assume that the input will always be a string of length 1
+
+const isUpperCase = (str) => {
+  if (str.toUpperCase() || str.toLowerCase()) {
+    return true;
+  } else if (str.length === 0) {
+    return false;
+  }
+  return str;
+};
+
+console.log(isUpperCase("h"));
+
+//  ---------------------------------------------------------------------------------------
+
+// write a function to check if a given string starts with a specific substring.
+
+// Constrains:
+//? A string ("Hello world")
+//? subStr :  A substring to check if it starts the given string ("hello")
+//? output : true if the given string starts with the specified substring otherwise false.
+
+const startsWith = (str, substr) => {
+  return str.toLowerCase().startsWith(substr.toLowerCase());
+};
+
+console.log(startsWith("Hello world", "hello"));
+console.log(startsWith("Hello world", "World"));
+
+//  ----------------------------------------------------------------------------------------
+
+// write a function to a string with using any built-in methods or libraries. The function should take a string as input and return the reversed string.
+
+const reverseString = (str) => {
+  return str.split("").reverse().join("");
+};
+
+console.log(reverseString("hellow"));
