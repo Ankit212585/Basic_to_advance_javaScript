@@ -597,18 +597,307 @@ in javaScript ?
 Ans:- this keyword refers to the element that the event handler is
 attached to.
 
-<!-- ----------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 Q-16 How to remove an event handler from an element in javaScript ?
 
 Ans:- removeEventListner() method is used to remove revent handler
 from element.
 
-<!-- start basice questions or HTML -->
+<!-------------------------------- start Basic Level 30 Questions of HTML ------------------------------->
+
+Here are 30 common interview questions and answers on basic HTML:
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+1. What is HTML?
+
+Answer: HTML (Hypertext Markup Language) is the standard language used
+to create web pages. It structures the content on the web using a
+series of elements and tags.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+2. What are HTML tags?
+
+Answer: HTML tags are code snippets enclosed within angle brackets
+(< >) used to define elements on a web page, such as headings,
+paragraphs, and images.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+3. What is the difference between HTML and XHTML?
+
+Answer: XHTML (Extensible Hypertext Markup Language) is a stricter,
+XML-based version of HTML. Unlike HTML, XHTML requires well-formed
+syntax (e.g., closing all tags).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+4. What is a doctype?
+
+Answer: The <!DOCTYPE> declaration defines the document type and
+version of HTML being used, which helps the browser to render the
+content correctly. For HTML5, it is <!DOCTYPE html>.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+5. What is the purpose of the <head> tag?
+
+Answer: The <head> tag contains metadata about the HTML document, such
+as the title, linked stylesheets, and scripts. It does not display
+content on the web page.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+6. What is the <title> tag used for?
+
+Answer: The <title> tag defines the title of the webpage, which is
+displayed in the browser tab and used by search engines for SEO.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+7. What are the semantic elements in HTML?
+
+Answer: Semantic elements are tags that clearly describe their meaning
+in a human- and machine-readable way, such as <header>, <footer>,
+
+<article>, <section>, and <nav>.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+8. What is the difference between block-level and inline elements?
+
+Answer: Block-level elements (e.g., <div>, <p>) occupy the full width
+of their parent container, whereas inline elements (e.g., <span>, <a>)
+only take up as much space as their content requires.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+9. What are HTML attributes?
+
+Answer: HTML attributes provide additional information about an
+element, usually in the format attribute="value" (e.g.,
+class="header"). Attributes are placed inside the opening tag.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+10. What is the difference between the <div> and <span> tags?
+
+Answer: <div> is a block-level element used for grouping and
+organizing content, while <span> is an inline element used for styling
+a small portion of text or content.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+11. How do you create a hyperlink in HTML?
+
+Answer: Use the <a> tag with the href attribute, like this:
+<a href="https://example.com">Link Text</a>.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+12. What is an HTML form?
+
+Answer: An HTML form (<form>) is used to collect user input, which is
+submitted to a server for processing. It typically includes elements
+like text fields, checkboxes, and submit buttons.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+13. What are the new form input types introduced in HTML5?
+
+Answer: HTML5 introduced new input types such as email, url, number,
+range, date, time, search, and color, among others.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+14. What is the purpose of the alt attribute in an <img> tag?
+
+Answer: The alt attribute provides alternative text for an image,
+which is displayed if the image cannot be loaded. It also improves
+accessibility for visually impaired users.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+15. How do you create a table in HTML?
+
+Answer: Use the <table> tag, with nested <tr> (table row), <th> (table
+header), and <td> (table data) tags. For example:
+
+html Copy code
+
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+16. What is the purpose of the colspan and rowspan attributes?
+
+Answer: The colspan attribute allows a <td> or <th> element to span
+across multiple columns, while rowspan allows it to span across
+multiple rows.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+17. How do you embed a video in an HTML page?
+
+Answer: Use the <video> tag, with optional attributes like controls,
+autoplay, and loop. Example:
+
+html Copy code <video controls>
+
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+18. How do you embed audio in an HTML page?
+
+Answer: Use the <audio> tag, with optional attributes like controls
+and autoplay. Example:
+
+html Copy code <audio controls>
+
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+19. What is an iframe in HTML?
+
+Answer: An <iframe> (inline frame) is used to embed another HTML page
+within the current page. Example:
+
+html Copy code
+
+<iframe src="https://example.com" width="300" height="200"></iframe>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+20. What is the use of the meta tag in HTML?
+
+Answer: The <meta> tag is used to specify metadata, like character
+set, author, and viewport settings. Commonly used for SEO and
+responsive design.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+21. How do you make a webpage mobile-friendly using HTML?
+
+Answer: By including a responsive meta tag like:
+
+html Copy code
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This makes the page adjust to different screen sizes.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+22. What are the global attributes in HTML?
+
+Answer: Global attributes can be used on any HTML element. Examples
+include class, id, style, data-\*, title, and lang.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+23. What is the difference between id and class attributes?
+
+Answer: The id attribute is unique and should be used only once per
+page, while the class attribute can be used on multiple elements for
+grouping and styling.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+24. How do you create a comment in HTML?
+
+Answer: Use the following syntax:
+
+html Copy code
+
+<!-- This is a comment -->
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+25. What is the required attribute in HTML5?
+
+Answer: The required attribute is used on form elements to ensure that
+the user must fill in the field before submitting the form.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+26. What are self-closing tags in HTML?
+
+Answer: Self-closing tags are HTML elements that do not need a closing
+tag. Examples include <img>, <br>, and <hr>.
+
+27. How do you include an external stylesheet in HTML?
+
+Answer: Use the <link> tag within the <head> section:
+
+html Copy code
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+28. How do you include an external JavaScript file in HTML?
+
+Answer: Use the <script> tag, typically placed at the end of the body
+section:
+
+html Copy code
+
+<script src="script.js"></script>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+29. What are HTML entities?
+
+Answer: HTML entities are used to display reserved characters in HTML.
+For example, &lt; represents < and &amp; represents &.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+30. How do you create an ordered and unordered list in HTML?
+
+Answer: For an ordered list, use the <ol> tag; for an unordered list,
+use the <ul> tag. Example:
+
+html Copy code
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+<ol>
+  <li>First</li>
+  <li>Second</li>
+</ol>
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+These questions cover foundational HTML concepts that are crucial for
+web development interviews. Let me know if you need more advanced
+questions or further explanations.
+
+<!------------------------------ start Advance Level 30 Questions of HTML ------------------------------->
 
 Here are 30 advanced HTML questions along with their answers. These
 can help deepen your understanding of HTML and prepare you for
 interviews or practical scenarios.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 1. What are HTML5 Web Workers?
 
@@ -616,10 +905,14 @@ Answer: Web Workers allow JavaScript to run in the background without
 affecting the performance of the main thread. They enable
 multi-threading in web applications.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 2. Explain the purpose of the data- attribute in HTML5.
 
 Answer: The data- attribute allows you to embed custom data attributes
 on HTML elements, which can be accessed using JavaScript or CSS.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 3. What is the difference between localStorage and sessionStorage in
    HTML5?
@@ -628,11 +921,15 @@ Answer: localStorage stores data with no expiration date, while
 sessionStorage stores data for the session (data is lost when the tab
 is closed).
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 4. How do you create responsive images in HTML5?
 
 Answer: Use the srcset attribute in the <img> tag, which allows the
 browser to select the appropriate image based on screen size and
 resolution.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 5. What is the purpose of the <template> tag in HTML5?
 
@@ -640,11 +937,15 @@ Answer: The <template> tag holds HTML that is not rendered until it's
 instantiated by JavaScript. It is useful for creating client-side
 templates.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 6. How does the <picture> element improve image rendering in HTML5?
 
 Answer: The <picture> element provides more control over which image
 to display based on viewport size, resolution, or other media queries,
 enhancing responsive design.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 7. What is a semantic element in HTML5?
 
@@ -653,16 +954,22 @@ and machine-readable way, such as <header>, <footer>, <article>, and
 
 <section>.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 8. How do you define custom elements in HTML5?
 
 Answer: Custom elements are defined using the Web Components API,
 typically via the class and extends keywords in JavaScript and
 registering them using customElements.define().
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 9. What is the purpose of the manifest attribute in HTML5?
 
 Answer: The manifest attribute specifies a web app manifest, which
 provides metadata (e.g., name, icons) for a Progressive Web App (PWA).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 10. Explain the difference between <section> and <div>.
 
@@ -670,11 +977,15 @@ Answer: <section> is a semantic element that represents a thematic
 grouping of content, whereas <div> is a non-semantic container that
 groups content without indicating any meaning.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 11. What is the purpose of the rel="noopener" attribute in HTML links?
 
 Answer: The rel="noopener" attribute prevents the newly opened page
 from having access to the window.opener property, which improves
 security and performance.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 12. How can you optimize performance with the defer attribute on
     script tags?
@@ -683,11 +994,15 @@ Answer: The defer attribute tells the browser to download the script
 in the background and execute it after the HTML document has been
 completely parsed, avoiding render-blocking.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 13. What is Shadow DOM in HTML5?
 
 Answer: Shadow DOM is a part of the Web Components standard. It
 encapsulates a portion of the DOM and isolates it from the rest of the
 document, preventing style and script interference.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 14. What are microdata and how are they used in HTML5?
 
@@ -695,16 +1010,22 @@ Answer: Microdata is a way to add semantic meaning to your HTML using
 standardized names and properties, enhancing search engines'
 understanding of your content.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 15. How do HTML5 forms handle validation natively?
 
 Answer: HTML5 provides built-in form validation with attributes like
 required, pattern, min, max, and types like email and url, reducing
 the need for JavaScript validation.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 16. What is the contenteditable attribute in HTML5?
 
 Answer: The contenteditable attribute makes the content of an element
 editable directly by the user, making it useful for WYSIWYG editors.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 17. Explain the difference between async and defer attributes on
     script tags.
@@ -714,11 +1035,15 @@ as it's ready, without waiting for the rest of the HTML to load,
 whereas defer waits until the document is fully parsed before
 executing the script.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 18. What is the autocomplete attribute in HTML5 forms?
 
 Answer: The autocomplete attribute provides suggestions or auto-fill
 options for form fields based on previously entered information,
 improving the user experience.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 19. How do you use the <output> element in HTML5 forms?
 
@@ -726,11 +1051,15 @@ Answer: The <output> element is used to display the result of a
 calculation or the outcome of user actions in a form, typically linked
 with the for attribute to form inputs.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 20. Explain the purpose of the datalist element in HTML5.
 
 Answer: The datalist element provides a list of predefined options to
 an <input> element, allowing users to choose from a dropdown list
 while still being able to enter custom values.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 21. What are ARIA roles, and why are they important in HTML?
 
@@ -738,16 +1067,22 @@ Answer: ARIA (Accessible Rich Internet Applications) roles define
 roles for UI elements that assistive technologies can use to make web
 applications more accessible to users with disabilities.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 22. What is the purpose of the sandbox attribute in an <iframe>?
 
 Answer: The sandbox attribute applies restrictions to the content in
 an <iframe>, enhancing security by preventing script execution, form
 submission, or other potentially harmful actions.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 23. What is the use of the spellcheck attribute in HTML5?
 
 Answer: The spellcheck attribute enables or disables the spelling and
 grammar checker in input fields and contenteditable elements.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 24. What is the <keygen> element in HTML5, and what has happened to
     it?
@@ -756,11 +1091,15 @@ Answer: The <keygen> element was used to generate key pairs for forms
 but has been deprecated due to security concerns. It's no longer
 recommended for use.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 25. How does the <progress> element work in HTML5?
 
 Answer: The <progress> element represents the completion progress of a
 task, typically with a visual bar that reflects a value out of a max
 attribute.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 26. What is the purpose of the <meter> element?
 
@@ -768,11 +1107,15 @@ Answer: The <meter> element represents a scalar measurement within a
 known range, such as a disk space indicator, different from <progress>
 as it shows a value on a scale.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 27. How do you make a website mobile-friendly using HTML?
 
 Answer: Use the <meta> viewport tag to control the layout on mobile
 browsers, combined with responsive design techniques like media
 queries in CSS.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 28. Explain the purpose of the hidden attribute in HTML5.
 
@@ -780,11 +1123,15 @@ Answer: The hidden attribute is used to hide an element from the user,
 but it remains in the DOM. It's typically used to toggle visibility
 with JavaScript.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 29. What is the translate attribute in HTML5?
 
 Answer: The translate attribute indicates whether an element's content
 should be translated when the page is localized. Its values are yes or
 no.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 30. What are custom data attributes, and how do you access them?
 
@@ -796,16 +1143,267 @@ These questions should cover a broad range of advanced HTML topics,
 including HTML5 features, semantic markup, accessibility, performance
 optimization, and more.
 
-<!-- start basice questions or CSS -->
+<!------------------------------ start Basic level 30 Questions of CSS ---------------------------------->
+
+Here's a list of 30 basic CSS interview questions along with their
+answers:
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+1. What is CSS?
+
+Answer: CSS (Cascading Style Sheets) is a stylesheet language used to
+describe the presentation of a document written in HTML. It controls
+layout, colors, fonts, and other visual aspects of web pages.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+2. What is the difference between class and id selectors in CSS?
+
+Answer: A class selector can be used on multiple elements, while an id
+selector is unique to a single element on the page. class is denoted
+with a dot (.) and id with a hash (#).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+3. What are the different types of CSS?
+
+Answer: Inline CSS: Applied directly to HTML elements using the style
+attribute. Internal CSS: Defined within the <style> tag in the <head>
+section. External CSS: Stored in an external .css file and linked to
+HTML using the <link> tag.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+4. Explain the box model in CSS.
+
+Answer: The CSS box model consists of four parts: content, padding,
+border, and margin. It defines how elements are spaced and sized on
+the page.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+5. What are pseudo-classes in CSS?
+
+Answer: Pseudo-classes are used to define the special state of an
+element, such as :hover, :focus, or :nth-child(). They help apply
+styles based on user interaction or element position.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+6. How do you center a block element horizontally in CSS?
+
+Answer: By using margin: auto; on the block element and ensuring the
+element has a defined width.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+7. What is the difference between absolute, relative, fixed, and
+   sticky positioning in CSS?
+
+Answer: absolute: Positioned relative to its nearest positioned
+ancestor. relative: Positioned relative to its normal position in the
+flow. fixed: Positioned relative to the viewport; it doesn't move when
+the page is scrolled. sticky: Toggles between relative and fixed
+positioning based on the scroll position.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+8. What is the z-index in CSS?
+
+Answer: The z-index property controls the stacking order of elements.
+Higher z-index values are placed on top of lower values.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+9.  How do you create a responsive layout in CSS?
+
+Answer: Using media queries to apply different styles based on screen
+sizes and by using flexible grid layouts, percentage-based widths, and
+flexbox or grid systems.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+10. What are media queries?
+
+Answer: Media queries allow the application of CSS rules based on
+device characteristics such as screen size, resolution, or
+orientation.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+11. What is the difference between inline and block elements in CSS?
+
+Answer: block elements take up the full width available, starting on a
+new line. inline elements only take up as much space as needed and do
+not start on a new line.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+12. What is the float property in CSS?
+
+Answer: The float property is used to align elements to the left or
+right of their container, allowing text or inline elements to wrap
+around them.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+13. How do you clear floated elements in CSS?
+
+Answer: By using the clear property or the clearfix hack, which forces
+an element to move below floated elements.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+14. What is Flexbox in CSS?
+
+Answer: Flexbox is a layout model that allows easy alignment and
+distribution of space among items in a container. It is useful for
+creating responsive designs.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+15. How do you use CSS variables?
+
+Answer: CSS variables are defined using the --variable-name syntax and
+can be used with the var(--variable-name) function. They allow for
+reuse of values and easier maintenance.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+16. What is the difference between padding and margin in CSS?
+
+Answer: padding is the space between an element's content and its
+border. margin is the space outside the element's border, separating
+it from other elements.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+17. What are CSS preprocessors?
+
+Answer: CSS preprocessors like SASS and LESS add functionality such as
+variables, nesting, and mixins to regular CSS, making it more
+maintainable and extendable.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+18. Explain the display property in CSS.
+
+Answer: The display property specifies how an element should be
+displayed. Common values include block, inline, flex, grid, and none.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+19. What are the differences between display: none; and visibility:
+    hidden;?
+
+Answer: display: none; removes the element from the document flow,
+while visibility: hidden; hides the element but still occupies space
+in the layout.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+20. How do you implement a CSS grid layout?
+
+Answer: By using the display: grid; property on a container and
+defining rows and columns using grid-template-rows,
+grid-template-columns, and grid-gap.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+21. What is the overflow property in CSS?
+
+Answer: The overflow property controls what happens when content
+overflows an element's box. Values include visible, hidden, scroll,
+and auto.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+22. How do you apply a gradient background in CSS?
+
+Answer: By using the background: linear-gradient() or background:
+radial-gradient() properties.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+23. What are CSS transitions?
+
+Answer: CSS transitions allow you to change property values smoothly
+over a specified duration. You can define which properties should
+transition, their duration, and timing functions.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+24. What are CSS animations?
+
+Answer: CSS animations are a way to animate HTML elements without
+JavaScript. They involve using @keyframes and the animation property
+to define the animation and its behavior.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+25. What are vendor prefixes in CSS?
+
+Answer: Vendor prefixes are used to ensure compatibility across
+different browsers that may not fully support a CSS property. Examples
+include -webkit-, -moz-, and -ms-.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+26. How do you hide an element in CSS?
+
+Answer: You can hide an element using display: none;, visibility:
+hidden;, or by setting opacity: 0;.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+27. What is the purpose of the :root selector in CSS?
+
+Answer: The :root selector targets the highest-level parent element in
+the DOM (usually <html>). It is often used to define CSS variables
+globally.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+28. How do you set a background image in CSS?
+
+Answer: By using the background-image: url("path/to/image.jpg");
+property.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+29. What is the box-sizing property in CSS?
+
+Answer: The box-sizing property defines how the width and height of an
+element are calculated: whether they include padding and borders
+(border-box) or not (content-box).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+30. What is the opacity property in CSS?
+
+Answer: The opacity property controls the transparency of an element,
+with values ranging from 0 (fully transparent) to 1 (fully opaque).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+These questions should cover a good range of CSS basics that could be
+asked in interviews.
+
+<!------------------------------- start Advance level 30 questions or CSS --------------------------------->
 
 Here are 30 advanced CSS questions along with their answers to help
 enhance your CSS knowledge, especially for interview preparation and
 real-world projects.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 1. What is the difference between em and rem units in CSS?
 
 Answer: em is relative to the font size of the parent element, whereas
 rem is relative to the font size of the root (html) element.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 2. What are CSS Grid and Flexbox, and when would you use each?
 
@@ -814,6 +1412,8 @@ grid-based layouts, while Flexbox is a one-dimensional layout system
 for distributing items in a row or column. Use Grid for complex,
 multi-row/column layouts and Flexbox for simpler, single-direction
 layouts.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 3. How do you create a CSS triangle?
 
@@ -824,6 +1424,8 @@ css Copy code .triangle { width: 0; height: 0; border-left: 50px solid
 transparent; border-right: 50px solid transparent; border-bottom:
 100px solid red; }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 4. Explain the CSS z-index property and how stacking context works.
 
 Answer: z-index controls the stack order of elements along the z-axis.
@@ -832,17 +1434,23 @@ stacking context is created by elements with certain properties like
 position with values other than static, opacity less than 1,
 transform, etc.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 5. What are pseudo-elements in CSS?
 
 Answer: Pseudo-elements allow you to style specific parts of an
 element, such as ::before and ::after for inserting content before or
 after an element's content.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 6. What is the :nth-child() selector, and how does it work?
 
 Answer: The :nth-child() selector matches elements based on their
 position among their siblings. You can specify patterns, such as
 nth-child(2n) for every second child.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 7. What is the difference between the visibility: hidden; and display:
    none; properties?
@@ -851,6 +1459,8 @@ Answer: visibility: hidden; hides an element but still occupies space
 in the layout, whereas display: none; removes the element from the
 layout entirely.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 8. What is the CSS contain property, and how does it help with
    performance?
 
@@ -858,6 +1468,8 @@ Answer: The contain property allows you to limit the scope of the
 browser's rendering calculations to an element and its subtree. It
 improves performance by containing layout, style, and paint changes to
 that element.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 9. How can you create a CSS animation that changes an element's
    background color on hover?
@@ -869,6 +1481,8 @@ css Copy code .element { background-color: blue; transition:
 background-color 0.3s ease; } .element:hover { background-color: red;
 }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 10. What are CSS variables (custom properties), and how do you use
     them?
 
@@ -879,12 +1493,16 @@ and accessed using var().
 css Copy code :root { --primary-color: #3498db; } .element {
 background-color: var(--primary-color); }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 11. What is the difference between absolute and fixed positioning in
     CSS?
 
 Answer: absolute positioning positions an element relative to its
 nearest positioned ancestor, while fixed positioning anchors an
 element to the viewport, remaining in place during scrolling.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 12. How does CSS specificity work, and how is it calculated?
 
@@ -894,17 +1512,23 @@ selectors used: inline styles (1000 points), ID selectors (100
 points), class/pseudo-class/attribute selectors (10 points), and
 element/pseudo-element selectors (1 point).
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 13. What is the CSS clip-path property, and how can it be used?
 
 Answer: The clip-path property allows you to create complex shapes by
 clipping an element to a specific path, such as a circle, polygon, or
 custom SVG shape.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 14. Explain the purpose of the object-fit property in CSS.
 
 Answer: The object-fit property defines how a replaced element (like
 an image or video) should be resized to fit its container. Common
 values include cover, contain, and fill.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 15. What is a media query in CSS, and how do you use it?
 
@@ -915,6 +1539,8 @@ resolution. They are commonly used for responsive design.
 css Copy code @media (max-width: 600px) { .element { font-size: 14px;
 } }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 16. How can you create a CSS-only dropdown menu?
 
 Answer: A CSS-only dropdown menu can be created using :hover and
@@ -922,11 +1548,15 @@ display or visibility properties to show/hide the dropdown content.
 
 css Copy code .dropdown:hover .dropdown-content { display: block; }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 17. What are ::before and ::after pseudo-elements used for?
 
 Answer: ::before and ::after pseudo-elements are used to insert
 content before or after the content of an element. They are often used
 for decorative purposes or adding content dynamically.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 18. What is the difference between inline and inline-block elements in
     CSS?
@@ -936,12 +1566,16 @@ sit on the same line as other inline elements, whereas inline-block
 elements respect width and height while allowing other elements to sit
 inline with them.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 19. Explain the concept of "cascading" in CSS.
 
 Answer: The "cascading" part of CSS refers to the way styles are
 applied based on the hierarchy of rules. When multiple rules apply to
 an element, the one with the highest specificity, importance, or that
 appears last in the code will be applied.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 20. How do you center an element horizontally and vertically using
     CSS?
@@ -951,17 +1585,23 @@ Answer: For flexbox:
 css Copy code .container { display: flex; justify-content: center;
 align-items: center; height: 100vh; }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 21. What is the backdrop-filter property in CSS, and how is it used?
 
 Answer: The backdrop-filter property applies graphical effects (like
 blur or brightness) to the area behind an element, creating a frosted
 glass effect or similar visual effects.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 22. What is the will-change property in CSS, and why is it used?
 
 Answer: The will-change property hints to the browser about what
 properties of an element will change, allowing it to optimize
 performance ahead of time. However, overuse can lead to memory issues.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 23. How do you achieve a parallax scrolling effect with CSS?
 
@@ -970,11 +1610,15 @@ at different speeds than the foreground content, often using
 background-attachment: fixed; or manipulating the transform property
 on scroll.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 24. What is the purpose of the filter property in CSS?
 
 Answer: The filter property applies graphical effects like blur,
 brightness, contrast, grayscale, or sepia to elements. It can be used
 to manipulate images or backgrounds visually.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 25. What is the aspect-ratio property in CSS, and how does it work?
 
@@ -982,11 +1626,15 @@ Answer: The aspect-ratio property allows you to define a proportional
 relationship between the width and height of an element, maintaining
 that ratio as the element resizes.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 26. What is the purpose of the object-position property in CSS?
 
 Answer: The object-position property specifies how an image or video
 is positioned within its container when the object-fit property is
 used to scale it.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 27. Explain the calc() function in CSS and give an example.
 
@@ -996,11 +1644,15 @@ percentages, and other values.
 
 css Copy code .element { width: calc(100% - 20px); }
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 28. What is the isolation property in CSS, and when would you use it?
 
 Answer: The isolation property creates a new stacking context for an
 element, ensuring that blending modes or z-index values of child
 elements do not affect outside elements.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 29. What is the difference between grid-template-areas and
     grid-template-columns in CSS Grid?
@@ -1010,20 +1662,307 @@ layout, allowing you to place elements in specific sections, whereas
 grid-template-columns defines the number and size of columns in the
 grid.
 
-<!-- start basice questions or javaScript -->
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+<!-------------------------- start Basic Level 30 Questions or javaScript ----------------------------->
+
+Here are 30 essential JavaScript interview questions and their
+answers:
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+1. What is JavaScript?
+
+Answer: JavaScript is a lightweight, interpreted, or just-in-time
+compiled programming language. It is primarily used for client-side
+web development but can also be used on the server-side (Node.js).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+2. What are JavaScript data types?
+
+Answer: The basic data types in JavaScript are:
+
+Primitive types: String, Number, Boolean, Null, Undefined, Symbol, and
+BigInt. Non-primitive types: Object (including Array, Function, etc.).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+3. What is the difference between var, let, and const?
+
+Answer: var is function-scoped, can be redeclared, and has hoisting
+behavior.
+
+let is block-scoped and cannot be redeclared in the same scope.
+
+const is block-scoped and cannot be reassigned, though objects
+declared with const can have their properties modified.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+4. What is hoisting in JavaScript?
+
+Answer: Hoisting is JavaScript's default behavior of moving
+declarations (variables and functions) to the top of their scope
+before execution. Variables declared with var are hoisted but
+initialized as undefined. let and const are also hoisted but remain
+uninitialized until they are assigned.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+5. What is the difference between == and ===?
+
+Answer: == compares values for equality after performing type
+coercion. === compares both value and type, without converting types.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+6. What are closures in JavaScript?
+
+Answer: A closure is the combination of a function and the lexical
+environment within which it was declared. Closures allow functions to
+access variables from an outer function scope even after the outer
+function has returned.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+7. What are IIFEs (Immediately Invoked Function Expressions)?
+
+Answer: An IIFE is a JavaScript function that runs as soon as it is
+defined. It’s commonly used to create a private scope.
+
+javascript Copy code (function() { console.log('IIFE executed'); })();
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+8. Explain this keyword in JavaScript.
+
+Answer: this refers to the object that is currently executing the
+function. The value of this depends on how the function is called:
+
+In a method, this refers to the owner object. In a standalone
+function, this refers to the global object (in browsers, it's window).
+In an event, this refers to the element that received the event.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+9. What is the event loop in JavaScript?
+
+Answer: The event loop is a mechanism that handles asynchronous
+operations in JavaScript. It continuously checks the call stack and
+task queue, executing tasks when the call stack is empty.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+10. What is the difference between null and undefined?
+
+Answer: null is an assignment value representing no value or no
+object. undefined means a variable has been declared but has not yet
+been assigned a value.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+11. What is an arrow function in JavaScript?
+
+Answer: An arrow function is a shorter syntax for writing functions.
+It does not have its own this, arguments, super, or new.target. It’s
+often used in scenarios where lexical this is preferred.
+
+javascript Copy code const add = (a, b) => a + b;
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+12. What is the difference between call(), apply(), and bind()?
+
+    Answer: call() invokes a function with a given this value and
+    arguments provided individually. apply() is similar to call(), but
+    arguments are provided as an array. bind() creates a new function
+    that, when invoked, has its this keyword set to a specific value.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+13. What are promises in JavaScript?
+
+Answer: Promises are used to handle asynchronous operations. They
+represent a value that may be available now, in the future, or never.
+A promise can be in one of three states: pending, fulfilled, or
+rejected.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+14. What is async/await?
+
+Answer: async/await is syntactic sugar built on top of promises that
+allows writing asynchronous code in a more synchronous-looking way.
+async functions return promises, and await pauses the execution until
+the promise is resolved.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+15. What are template literals?
+
+Answer: Template literals are strings enclosed by backticks (`). They
+allow for embedding expressions using ${expression} and support
+multi-line strings.
+
+javascript Copy code const name = 'Ankit';
+console.log(`Hello, ${name}!`);
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+16. What is destructuring in JavaScript?
+
+Answer: Destructuring allows you to extract values from arrays or
+objects and assign them to variables in a more concise syntax.
+
+javascript Copy code const [a, b] = [1, 2]; const {name, age} = {name:
+'John', age: 30};
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+17. What are higher-order functions?
+
+Answer: A higher-order function is a function that takes another
+function as an argument or returns a function as a result.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+18. What are JavaScript modules?
+
+Answer: JavaScript modules allow splitting code into reusable pieces.
+Modules can be imported and exported to share functionality across
+different parts of an application.
+
+javascript Copy code // module.js export const greet = () => 'Hello';
+
+// main.js import { greet } from './module.js';
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+19. What is event delegation?
+
+Answer: Event delegation is a technique where a single event listener
+is added to a parent element to manage events for multiple child
+elements. It relies on event bubbling.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+20. Explain the difference between forEach and map.
+
+Answer: forEach iterates over an array, executing a function for each
+element. It does not return anything. map also iterates over an array
+but returns a new array with the results of applying the provided
+function to each element.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+21. What is the difference between slice() and splice()?
+
+Answer: slice() returns a shallow copy of a portion of an array
+without modifying the original array. splice() modifies an array by
+adding/removing elements and returns the removed elements.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+22. What is currying in JavaScript?
+
+Answer: Currying is a technique where a function takes multiple
+arguments one at a time instead of all at once. It allows the function
+to be partially applied.
+
+javascript Copy code const add = a => b => a + b;
+console.log(add(2)(3)); // 5
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+23. What is the difference between synchronous and asynchronous code?
+
+Answer: Synchronous code is executed line by line, with each operation
+blocking the next until it completes. Asynchronous code allows other
+operations to continue while waiting for tasks (e.g., network
+requests) to complete.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+24. What is NaN in JavaScript?
+
+Answer: NaN stands for "Not-a-Number." It is a value returned when a
+mathematical operation fails or cannot produce a valid number. It is
+also the only value in JavaScript that is not equal to itself (NaN !==
+NaN).
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+25. What is the difference between Object.freeze() and Object.seal()?
+
+Answer: Object.freeze() prevents any changes to an object (no
+addition, deletion, or modification of properties). Object.seal()
+allows modifying existing properties but prevents adding or deleting
+properties.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+26. What are polyfills in JavaScript?
+
+Answer: A polyfill is a piece of code that provides modern
+functionality on older browsers that do not natively support it. For
+example, using a polyfill to implement Array.prototype.includes() in
+older environments.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+27. What is a callback function?
+
+Answer: A callback function is a function passed into another function
+as an argument and is executed after some operation has been
+completed. Callbacks are commonly used for handling asynchronous
+operations.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+28. What is a Promise.all() in JavaScript?
+
+Answer: Promise.all() takes an array of promises and returns a single
+promise that resolves when all promises in the array resolve, or
+rejects if any promise rejects.
+
+javascript Copy code Promise.all([promise1, promise2]) .then(result =>
+console.log(result)) .catch(error => console.log(error));
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+29. What is the difference between shallow copy and deep copy?
+
+Answer: A shallow copy copies an object's top-level properties, but
+nested objects are shared (i.e., copied by reference). A deep copy
+creates an entirely new object, recursively copying all nested objects
+as well.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+30. What is the use of typeof and instanceof operators?
+
+Answer: typeof is used to determine the data type of a variable. For
+example, typeof 42 returns "number". instanceof checks if an object is
+an instance of a specific constructor. For example, obj instanceof
+Array returns true if obj is an array. These questions and answers
+will give you a solid foundation for understanding basic JavaScript
+concepts.
+
+<!-------------------------- start Advance Level 30 Questions or javaScript ----------------------------->
 
 Here are 30 advanced JavaScript interview questions along with their
 answers to help you deepen your understanding and prepare for
 challenging interview scenarios.
 
+<!-- ------------------------------------------------------------------------------------------------- -->
+
 1. What is the difference between let, const, and var in JavaScript?
 
-Answer:
-
-var: Function-scoped, hoisted, can be re-declared and updated. let:
-Block-scoped, not hoisted, can be updated but not re-declared in the
-same scope. const: Block-scoped, not hoisted, cannot be re-declared or
-updated.
+Answer: var: Function-scoped, hoisted, can be re-declared and updated.
+let: Block-scoped, not hoisted, can be updated but not re-declared in
+the same scope. const: Block-scoped, not hoisted, cannot be
+re-declared or updated.
 
 2. What is a closure in JavaScript?
 
@@ -1066,11 +2005,9 @@ include map(), filter(), and reduce().
 
 8. What is the difference between == and === in JavaScript?
 
-Answer:
-
-==: Compares two values after converting them to a common type (type
-coercion). ===: Compares two values without type coercion (strict
-equality).
+Answer: ==: Compares two values after converting them to a common type
+(type coercion). ===: Compares two values without type coercion
+(strict equality).
 
 9. What is the purpose of the this keyword in JavaScript?
 
@@ -1234,11 +2171,13 @@ parameters, rest and spread operators, classes, modules, promises, and
 more. These changes made JavaScript more powerful and easier to write,
 especially for larger applications.
 
-<!-- start basice questions or React js -->
+<!------------------------------------ start Advance 50 Questions or React js ---------------------------->
 
 Here are 50 advanced React.js interview questions along with their
 answers to help you prepare for challenging interviews and solidify
 your understanding of React.
+
+<!-- ------------------------------------------------------------------------------------------------- -->
 
 1. What is React Fiber, and how does it differ from the old React
    reconciliation algorithm?
@@ -2074,7 +3013,8 @@ successful, impacting data durability and consistency.
 
 Answer: Aggregation pipelines are a framework for data processing in
 MongoDB, allowing you to perform complex data transformations and
-analysis. Pipelines consist of stages (e.g., $match, $group, $sort,
+analysis. Pipelines consist of stages (e.g.,
+$match, $group, $sort,
 $project) that process documents in a sequence.
 
 9. Explain the $lookup operator in MongoDB aggregation.
