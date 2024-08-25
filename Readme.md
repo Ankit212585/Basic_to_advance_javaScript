@@ -727,7 +727,7 @@ header), and <td> (table data) tags. For example:
 
 html Copy code
 
-<table>
+<!-- <table>
   <tr>
     <th>Header 1</th>
     <th>Header 2</th>
@@ -736,7 +736,7 @@ html Copy code
     <td>Data 1</td>
     <td>Data 2</td>
   </tr>
-</table>
+</table> -->
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
