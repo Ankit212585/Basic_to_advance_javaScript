@@ -722,8 +722,8 @@ accessibility for visually impaired users.
 
 15. How do you create a table in HTML?
 
-Answer: Use the <table> tag, with nested <tr> (table row), <th> (table
-header), and <td> (table data) tags. For example:
+<!-- Answer: Use the <table> tag, with nested <tr> (table row), <th> (table
+header), and <td> (table data) tags. For example: -->
 
 html Copy code
 
